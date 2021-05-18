@@ -4,15 +4,22 @@
   </div>
 </template>
 
-<script>
-import storage from './storage/index'
+<script> 
+// import storage from './storage/index'
 export default {
   name: 'app',
   components: {
   },
+  data(){
+    return {
+      res: {}
+    }
+  },
   mounted() {
-    storage.setItem('a',1,"user");
-    //storage.clear('user') 
+   this.axios.get('/mock/user/login.json').then((res)=>{
+     this.res = res;
+   }) 
+     
   }
 }
 </script>

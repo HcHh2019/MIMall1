@@ -9,7 +9,7 @@ Vue.config.productionTip = false
 
 Vue.prototype.axios = axios
 // 根据前端方式调整，这里用的是接口代理,使用的是‘/api’
-// axios.defaults.baseURL = '/api';
+axios.defaults.baseURL = '/api';
 axios.defaults.timeout = 8000;
 // 根据环境变量获取不同的请求地址
 // axios.defaults.baseURL = env.baseURL;

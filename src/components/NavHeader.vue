@@ -260,6 +260,7 @@ export default {
           border: 0.5px solid #e5e5e5;
           box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.11);
           transition: all 0.5s ease-in-out;
+          background-color: #fff;
           .product {
             position: relative;
             float: left;

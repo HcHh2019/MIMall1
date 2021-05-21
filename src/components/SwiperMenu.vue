@@ -13,27 +13,21 @@
       </li>
       <li class="menu-item">
         <a href="javascrip:;">笔记本 平板</a>
-        <swiper-menu-item></swiper-menu-item>
       </li>
       <li class="menu-item">
         <a href="javascrip:;">家电 插线板</a>
-        <swiper-menu-item></swiper-menu-item>
       </li>
       <li class="menu-item">
         <a href="javascrip:;">出行 穿戴</a>
-        <swiper-menu-item></swiper-menu-item>
       </li>
       <li class="menu-item">
         <a href="javascrip:;">智能 路由器</a>
-        <swiper-menu-item></swiper-menu-item>
       </li>
       <li class="menu-item">
         <a href="javascrip:;">电源 配件</a>
-        <swiper-menu-item></swiper-menu-item>
       </li>
       <li class="menu-item">
         <a href="javascrip:;">生活 箱包</a>
-        <swiper-menu-item></swiper-menu-item>
       </li>
     </ul>
   </div>

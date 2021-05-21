@@ -2,6 +2,7 @@
   <div class="index">
     <div class="container">
       <div class="swiper-box">
+        <swiper-menu></swiper-menu>
         <swiper-slidec></swiper-slidec>
       </div>
       <div class="ads-box"></div>
@@ -15,15 +16,14 @@
 <script>
 import ServiceBar from '../../components/ServiceBar'
 import SwiperSlidec from '../../components/SwiperSlidec'
+import SwiperMenu from '../../components/SwiperMenu'
 
 export default {
  name: 'index',
  components: {
    ServiceBar,
    SwiperSlidec,
- },
- data() {
-   return {}
+   SwiperMenu,
  }
 }
 </script>

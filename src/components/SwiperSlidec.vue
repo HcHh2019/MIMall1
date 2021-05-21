@@ -77,6 +77,9 @@ export default {
         width: 100%;
         height: 100%;
       }
+      .swiper-button-prev {
+        left: 274px;
+      }
     }
   }
 </style>

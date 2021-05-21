@@ -5,8 +5,7 @@
         <swiper-menu></swiper-menu>
         <swiper-slidec></swiper-slidec>
       </div>
-      <div class="ads-box"></div>
-      <div class="banner"></div>
+      <ads-box></ads-box>
       <div class="product-box"></div>
     </div>
     <service-bar></service-bar>
@@ -17,6 +16,8 @@
 import ServiceBar from '../../components/ServiceBar'
 import SwiperSlidec from '../../components/SwiperSlidec'
 import SwiperMenu from '../../components/SwiperMenu'
+import AdsBox from '../../components/AdsBox'
+
 
 export default {
  name: 'index',
@@ -24,6 +25,7 @@ export default {
    ServiceBar,
    SwiperSlidec,
    SwiperMenu,
+   AdsBox,
  }
 }
 </script>
@@ -35,7 +37,6 @@ export default {
       width: 1226px;
       margin-left: auto;
       margin-right: auto;
-
     }
   }
 </style>
